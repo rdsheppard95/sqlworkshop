@@ -84,7 +84,7 @@ Orders the results by a specific column in descending (largest first) order
 ### GROUP BY
 Groups rows based on a column, useful for aggregations
 
-`SELECT BillingCity, max(Total) FROM invoices GROUP BY BillingCity;`
+`SELECT BillingCity, COUNT(BillingCity), max(Total) FROM invoices GROUP BY BillingCity;`
 ### HAVING
 HAVING is used in place of WHERE for aggregate functions.
 `SELECT * FROM invoices GROUP BY BillingCity HAVING COUNT(BillingCity) > 10;`
