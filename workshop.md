@@ -68,14 +68,12 @@ Groups rows based on a column, useful for aggregations
 `SELECT BillingCity, max(Total) FROM invoices GROUP BY BillingCity;`
 ### HAVING
 HAVING is used in place of WHERE for aggregate functions.
+`SELECT * FROM invoices GROUP BY BillingCity HAVING COUNT(BillingCity) > 10;`
 
-### LEFT JOIN
-
-## INSERT
-
-## UPDATE
-
-## DELETE
+### INNER JOIN
+`SELECT FirstName, LastName, Company, BillingState FROM customers INNER JOIN invoices ON customers.CustomerId = invoices.CustomerId;`
 
 ## Additional Resources
 [SQLite Tutorial](http://www.sqlitetutorial.net/)
+
+[SQL Joins](http://www.sql-join.com/sql-join-types/)
