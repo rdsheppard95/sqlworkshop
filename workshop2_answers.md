@@ -5,9 +5,13 @@
 
 `SUM()`
 
-`MAX`
+`MAX()`
 
-`MIN`
+`MIN()`
+
+`ROUND(<Value>, <Precision>)`
+
+`AVG()`
 
 ## Question 1
 Select all of the customers (names, IDs, and country) who are not in the US.

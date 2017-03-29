@@ -5,9 +5,13 @@
 
 `SUM()`
 
-`MAX`
+`MAX()`
 
-`MIN`
+`MIN()`
+
+`ROUND(<Value>, <Precision>)`
+
+`AVG()`
 
 ## Question 1
 Select all of the customers (names, IDs, and country) who are not in the US.
@@ -51,5 +55,4 @@ Display every track that has "Jazz" as the genre.
 Display the total invoice amount for each year from lowest grossing to highest grossing total.
 
 ## Resources
-
 [More Practice](https://github.com/JeremyCSwain/Chinook-SQL-Exercise/blob/master/chinook.md)
